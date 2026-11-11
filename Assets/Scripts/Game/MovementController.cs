@@ -55,10 +55,10 @@ public class MovementController : MonoBehaviour
         }
 
         float x = moveDirection.x * moveSpeed;
-        float y = rigidbody.velocity.y;
+        float y = rigidbody.linearVelocity.y;
 
         Vector2 velocity = new Vector2(x, y);
 
-        rigidbody.velocity = velocity;
+        rigidbody.linearVelocity = velocity;
     }
 }
