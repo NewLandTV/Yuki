@@ -15,9 +15,13 @@ public class WeaponManager : MonoBehaviour
 
     private void Equip()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        // 0 - 9 keys
+        for (int i = 0; i < Mathf.Max(weapons.Length, 10); i++)
         {
-            ApplyWeapon(weapons[0]);
+            if (Input.GetKeyDown(KeyCode.Alpha1 + i))
+            {
+                ApplyWeapon(weapons[i]);
+            }
         }
     }
 
