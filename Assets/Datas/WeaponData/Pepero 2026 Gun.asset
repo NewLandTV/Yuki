@@ -15,5 +15,5 @@ MonoBehaviour:
   name: "\uBE7C\uBE7C\uB85C 2026\uAC74"
   sprite: {fileID: 21300000, guid: 3fc65073089921245bcb1ac09812c271, type: 3}
   damage: 2026
-  rate: 184.18182
+  rate: 0.0054294174
   type: 0
